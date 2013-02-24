@@ -1,0 +1,28 @@
+-cp src
+-cp test
+-main TestMain
+--each
+
+-swf bin/swf9.swf
+
+--next
+-swf bin/swf8.swf
+-swf-version 8
+
+--next
+-neko bin/neko.n
+
+--next
+-js bin/js.js
+
+--next
+-php bin/php
+
+--next
+-cpp bin/cpp
+
+--next
+-java bin/java
+
+--next
+-as3 bin/as3
